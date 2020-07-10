@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+#menu-ham{
+    width: 60%;
+    min-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+#abrir-ham{
+    display: inline-block;
+}
+#menuPrincipal{
+    height: 0px;
+    width: 90%;
+    overflow:hidden
+}
+#cabecera:target #abrir-ham{
+    display:none;
+}
+#cabecera:target #cerrar-ham{
+    display: inline-block;
+}
+#cabecera:target #menuPrincipal{
+    height: 150px;
+}
+.opcion{
+    width: 150px;
+    text-align: top;
+}
+}
